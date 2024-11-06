@@ -1,0 +1,39 @@
+
+#h1{ /*Seletor por id*/
+    color: rgb(58, 58, 253);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: oblique;
+  }
+
+body{ /*seletor por elemento*/
+    background-color: rgba(142, 190, 253, 0.342);
+}
+p{/*seletor por elemento*/
+    text-indent: 20px;
+    font-style: italic;
+}
+.container{ /*seletor por classe*/
+    text-align: center;
+}
+dt[href="estilo/style.css"]{ /*Seletor por  atributo*/
+    text-decoration: underline;
+    font-weight: bold;
+}
+a{
+    color: rgb(10, 43, 100);
+}
+
+#fontCor{
+    color: rgb(10, 43, 100);
+}
+
+.redesSociais{
+    color: rgb(53, 120, 207);
+}
+
+a:hover{ /*seletor por pseudo-classe */
+    color: rgb(53, 120, 207);
+}
