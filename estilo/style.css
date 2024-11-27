@@ -1,6 +1,6 @@
 
 #h1{ /*Seletor por id*/
-    color: rgb(58, 58, 253);
+    color:rgb(4, 43, 116);
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -10,7 +10,28 @@
 
 body{ /*seletor por elemento*/
     background-color: rgba(142, 190, 253, 0.342);
+    
 }
+
+#div{
+    margin:10%;
+    margin-top: 5%;
+    padding: 0% 10%;
+    border-radius: 10px;
+}
+
+nav{
+    margin: 10%;
+    margin-bottom: 5%;
+    padding: 0% 10%;
+    border: 3px solid rgb(4, 43, 116);
+    padding-left: 0%;
+    border-radius: 20px;
+}
+.classes{
+    display: inline;
+}
+
 p{/*seletor por elemento*/
     text-indent: 20px;
     font-style: italic;
@@ -31,7 +52,7 @@ a{
 }
 
 .redesSociais{
-    color: rgb(53, 120, 207);
+    color: rgb(4, 43, 116);;
 }
 
 a:hover{ /*seletor por pseudo-classe */
